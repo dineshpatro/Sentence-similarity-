@@ -313,11 +313,11 @@ N = 0
 # In[82]:
 
 #Connection configuration
-config = dict(server=   'redbuttondev', # change this to your SQL Server hostname or IP address
+config = dict(server=   '', # change this to your SQL Server hostname or IP address
               port=      1433,                    # change this to your SQL Server port number [1433 is the default]
-              database= 'gwo_planning',
-              username= 'gwopln',
-              password= 'gwo1')
+              database= '',
+              username= '',
+              password= '')
  
 conn_str = ('SERVER={server},{port};'   
             'DATABASE={database};'      
